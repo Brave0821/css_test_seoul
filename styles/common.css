@@ -1,0 +1,63 @@
+/* 문제 1번 서울시청 해더시작 */
+
+header .seoul_top {
+    width: 1151px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header .seoul_top nav {}
+header .seoul_top nav h1 {      
+    display: inline-block;
+}
+header .seoul_top nav h1 a {
+    font-size: 14px;
+}
+header.seoul_top nav h1 a img {}
+header .seoul_top nav a {}
+/*  */
+header  .seoul_top .seoul_right {
+    float: right;
+}
+header .seoul_top .seoul_right a {}
+header .seoul_top_btm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header .seoul_top_btm h1 {
+    margin-right: 242px;
+}
+header .seoul_top_btm h1 a {}
+header .seoul_top_btm h1 a img {}
+header .seoul_top_btm #seoul_such {}
+header .seoul_top_btm #seoul_such fieldset {}
+header .seoul_top_btm #seoul_such fieldset #search_bar {
+    width: 370px; height: 47px;
+    border: 1px solid #1e6cb3;
+    background-color: #fff;
+}
+/* 검색창 끝 */
+header .seoul_top_btm #seoul_option {
+    margin-left: 261px;
+}
+header .seoul_top_btm #seoul_option fieldset {}
+header .seoul_top_btm #seoul_option fieldset #lang_option {}
+header .seoul_top_btm #seoul_option fieldset #lang_option option {}
+/*  */
+header .seoul_top_btm .seoul_go {
+    width: 20px; height: 19px;
+    font-weight: bold ;
+    border: 1px solid #000 ;
+    background-color: #1e6cb3;
+    text-align: end;
+}
+header .seoul_top_btm .weader_num {
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+header .seoul_top_btm p {
+    font-size: 13px;
+}
